@@ -8,4 +8,10 @@ phases:
     commands:
       - jekyll --version
       - pwd
+      - cd codebuild-jekyll-test
+  build:
+    commands:
+      - jekyll b
+
+      
 
