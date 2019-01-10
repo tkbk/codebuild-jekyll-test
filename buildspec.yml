@@ -1,0 +1,9 @@
+version: 0.2
+           
+phases:
+  install:
+    commands:
+      - gem install bundler jekyll
+  pre_build:
+    commands:
+      - jekyll --version
