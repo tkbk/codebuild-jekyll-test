@@ -7,10 +7,11 @@ phases:
   pre_build:
     commands:
       - jekyll --version
-      - pwd
       - cd codebuild-jekyll-test
+      - pwd      
   build:
     commands:
+      - pwd      
       - jekyll b
 
       
