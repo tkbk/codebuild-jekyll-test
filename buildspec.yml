@@ -7,7 +7,10 @@ phases:
   pre_build:
     commands:
       - jekyll --version
-      - bundler --version      
+      - bundler --version
+      - gem update bundler
+      - jekyll --version
+      - bundler --version            
       - cd codebuild-jekyll-test
   build:
     commands:
