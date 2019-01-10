@@ -7,3 +7,5 @@ phases:
   pre_build:
     commands:
       - jekyll --version
+      - pwd
+
