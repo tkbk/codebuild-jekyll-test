@@ -17,7 +17,7 @@ artifacts:
   files:
     - 'codebuild-jekyll-test/_site/**/*'
   name: jekyll-sample-artifacts
-  discard-paths: no
+  discard-paths: yes
 
       
 
