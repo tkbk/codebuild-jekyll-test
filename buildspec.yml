@@ -12,7 +12,7 @@ phases:
       - cd codebuild-jekyll-test
   build:
     commands:
-      - jekyll b
+      - bundle exec jekyll b
 
       
 
