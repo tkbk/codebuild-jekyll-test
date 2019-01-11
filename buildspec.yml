@@ -5,6 +5,7 @@ phases:
     commands:
       - gem install jekyll
       - gem install bundler
+      - gem install minima      
   pre_build:
     commands:
       - jekyll --version
