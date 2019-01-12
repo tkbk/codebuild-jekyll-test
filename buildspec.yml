@@ -13,6 +13,10 @@ phases:
   build:
     commands:
       - bundle exec jekyll b
+  post_build:
+    commands:
+      - cd _site
+      - pwd
 artifacts:
   files:
     - 'codebuild-jekyll-test/_site/**/*'
