@@ -16,7 +16,6 @@ phases:
   post_build:
     commands:
       - cd _site
-      - pwd
       - aws s3 sync . s3://jfic-jekyll-test/ 
 artifacts:
   files:
